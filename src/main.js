@@ -55,7 +55,7 @@ function formatText(str) {
   str = str.replace(/\n  (?=\w)/g, "\n- ")
 
   // Добавляем `>` в качестве разделите групп в списке
-  str = str.replace(/\n(?=\n\*)/g, "\n>")
+  str = str.replace(/\n(?=\n\-)/g, "\n>")
 
   // Убираем переносы строк в начале
   str = str.replace(/^\n*/g, "")
