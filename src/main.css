@@ -1,0 +1,10 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+#translate-form {
+  width: 100%;
+  max-width: 70rem;
+}
+#translate-form textarea {
+  font-family: var(--bs-font-monospace);
+  max-height: 70vh;
+}
